@@ -9,7 +9,7 @@ Data Analysis: Matemática para Ingeniería 2020-2024
 
 -----------------------------------------------------------------------------
 1- Importing and cleaning data: data is stored in Excel .xlsx files, and it has
-way more informatin than needed. It will be organized in columns as follows:
+more informatin than needed. It will be organized in columns as follows:
     cols: Alumno | Legajo | 1P1F | 1P2F | 2P1F | 2P2F | F1 | F2 | Final |
           Condicion | Año | Tipo_Cursada | Virtual
 """
@@ -318,8 +318,32 @@ columns = {"Apellido y Nombre" : "Alumno",
 
 data12 = data_cleaner(data12, columns, 2024, "Anticipada", "No")
 
+    
+"""
+File: 13_1erSem_2025.xlsx
+"""
+with pd.ExcelFile(path + "13_1erSem_2025.xlsx") as file:
+    data13 = file.parse("Resumen", skiprows=[0,1], usecols= "E:T", header=0)
+
+# Columns names:
+columns = {"Apellido y Nombre" : "Alumno",
+           "Legajo" : "Legajo",
+           "Parcial" : "1P1F",
+           "Recup." : "1P2F",
+           "Parcial.1" : "2P1F",
+           "Recup..1" : "2P2F",
+           "1° parcial" : "F1",
+           "2° parcial" : "F2",
+           "Unnamed: 18" : "Final",
+           "Unnamed: 19" : "Condicion"}
+
+data13 = data_cleaner(data13, columns, 2025, "1er Semestre", "No")
+
+
+"""
+"""
 # Creating a unique dataset:
-all_data = pd.concat([eval("data" + str(i)) for i in range (1,13)]\
+all_data = pd.concat([eval("data" + str(i)) for i in range (1,14)]\
                      , ignore_index = True)
 
 """
@@ -393,4 +417,4 @@ all_data = all_data.drop(columns = ["Alumno", "Legajo"])
 print(all_data.dtypes)
 
 # Exporting to a txt. file
-all_data.to_csv("Mate_PI_2020_2024.csv")
+all_data.to_csv("Mate_PI_2020_2025.csv")
