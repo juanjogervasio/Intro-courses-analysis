@@ -1,0 +1,2 @@
+# Exclude confidential files
+/files/*.xlsx

@@ -15,7 +15,7 @@ more informatin than needed. It will be organized in columns as follows:
 """
 import pandas as pd
 
-path = r""
+path = r"~/Desktop/Mate_PI/files/"
 
 """
 File: 1_Verano_2020.xlsx
@@ -417,4 +417,4 @@ all_data = all_data.drop(columns = ["Alumno", "Legajo"])
 print(all_data.dtypes)
 
 # Exporting to a txt. file
-all_data.to_csv("Mate_PI_2020_2025.csv")
+all_data.to_csv(path+"Mate_PI_2020_2025.csv")
