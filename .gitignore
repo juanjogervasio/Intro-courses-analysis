@@ -1,2 +1,6 @@
-# Exclude confidential files
+# Confidential files
 /files/*.xlsx
+
+# Unnecessary files
+/.virtual_documents
+/.ipynb_checkpoints
