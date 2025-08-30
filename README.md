@@ -1,4 +1,4 @@
-# 📘 Análisis de Desempeño en Cursos Introductorios de Matemática (2020–2025)
+#  Análisis de Desempeño en Cursos Introductorios de Matemática (2020–2025)
 
 ## 📂 Contenido del repositorio
 - `Analisis.ipynb`: notebook principal con el análisis desarrollado.
