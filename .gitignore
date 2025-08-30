@@ -1,6 +1,9 @@
 # Confidential files
 /files/*.xlsx
 
+# Tests
+/notebooks/Mate_PI_Analysis.ipynb
+
 # Unnecessary files
 .DS_Store
 /.virtual_documents
