@@ -5,5 +5,5 @@
 .DS_Store
 /.virtual_documents
 /.ipynb_checkpoints
-/noteboks/.ipynb_checkpoints
+/notebooks/.ipynb_checkpoints
 /notebooks/.DS_Store
