@@ -8,7 +8,7 @@
 - `Database.py`: script utilizado para la importación de datos.
 
 ## 🎯 Introducción
-Este proyecto analiza los resultados académicos de los estudiantes en la asignatura **Matemática Para Ingeniería** de la Facultad de Ingeniería de la Universidad Nacional de La Plata. Los datos son de producción propia, recopilados en los cursos en los que he participado entre los años **2020 y 2025**.  
+Este proyecto analiza los resultados académicos de los estudiantes en la asignatura **Matemática Para Ingeniería** de la Facultad de Ingeniería de la Universidad Nacional de La Plata. Los datos son de producción propia, recopilados en los cursos en los que he participado **entre los años 2020 y 2025**.  
 
 El objetivo principal es **caracterizar** el desempeño de los alumnos en general y a lo largo de los años, y **comparar el rendimiento de los alumnos en las distintas modalidades de cursada** (Verano, 1er Semestre y Anticipada). Se busca identificar tendencias a lo largo del tiempo y evaluar factores contextuales que expliquen las posibles diferencias entre las distintas modalidades.  
 
