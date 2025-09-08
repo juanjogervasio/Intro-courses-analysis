@@ -48,7 +48,7 @@ Los resultados del análisis descriptivo de los cursos puede verse en el noteboo
   - Distribución de condición final y diferencias respecto al promedio grobal.
   - Curvas de supervivencia y evolución de la tasa de abandono para caracterizar permanencia de los alumnos durante la cursada.
   - Distribución de notas en los parciales.   
-- Punto de partida para comparar la eficacua en cada modalidad.
+- Punto de partida para comparar la eficacia en cada modalidad.
 
 ---
 
