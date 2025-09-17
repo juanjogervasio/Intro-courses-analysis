@@ -21,7 +21,7 @@ El análisis se realiza en **Python** utilizando `pandas`, `matplotlib` y `seabo
 Los resultados del análisis descriptivo de los cursos puede verse en el notebook Analisis.ipynb y consta de las siguientes secciones:
 
 ### 1. Análisis exploratorio de los datos
-- Descripción detallada del dataset (1222 registros, 13 variables).
+- Descripción detallada del dataset (1221 registros, 13 variables).
 - Variables principales: condición final, año, tipo de cursada, nota final.
 - Identificación de categorías y estructura de los datos.
 
@@ -47,13 +47,12 @@ Los resultados del análisis descriptivo de los cursos puede verse en el noteboo
 - Perfil general del **desempeño durante los cursos de 1er Semestre y Anticipada** en términos de:
   - Distribución de condición final y diferencias respecto al promedio grobal.
   - Curvas de supervivencia y evolución de la tasa de abandono para caracterizar permanencia de los alumnos durante la cursada.
-  - Distribución de notas en los parciales.   
-- Punto de partida para comparar la eficacia en cada modalidad.
-
+  - Distribución de notas en los parciales.
+- Comparación de resultados entre cada modalidad de cursada.   
 ---
 
 ## 🚀 Próximos pasos
-- Profundizar la comparación entre **tipos de cursada**.
+- Profundizar las conclusiones obtenidas del análisis.
 - Explorar técnicas de **Machine Learning**:
   - Clusterización de perfiles de estudiantes.
   - Modelos predictivos de condición final (aprobado, desaprobado, libre, abandono).
