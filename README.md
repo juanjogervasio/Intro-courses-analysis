@@ -18,7 +18,7 @@ El análisis se realiza en **Python** utilizando `pandas`, `matplotlib` y `seabo
 
 ## 📑 Estructura del Informe
 
-Los resultados del análisis descriptivo de los cursos puede verse en el notebook Analisis.ipynb y consta de las siguientes secciones:
+Los resultados del análisis descriptivo de los cursos puede verse en el notebook [Analisis.ipynb](https://github.com/juanjogervasio/Intro-courses-analysis/blob/main/notebooks/Analisis.ipynb) y consta de las siguientes secciones:
 
 ### 1. Análisis exploratorio de los datos
 - Descripción detallada del dataset (1221 registros, 13 variables).
