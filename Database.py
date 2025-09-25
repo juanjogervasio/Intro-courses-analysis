@@ -5,8 +5,7 @@ Created on Tue Dec  3 20:08:55 2024
 
 @author: juanjo
 
-Data Analysis: Matemática para Ingeniería 2020-2024
-
+Data Analysis: Matemática para Ingeniería 2020-2025
 -----------------------------------------------------------------------------
 1- Importing and cleaning data: data is stored in Excel .xlsx files, and it has
 more informatin than needed. It will be organized in columns as follows:
