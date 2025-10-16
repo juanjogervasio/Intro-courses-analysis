@@ -3,10 +3,13 @@
 
 # Tests
 /notebooks/Mate_PI_Analysis.ipynb
+/files/Anticipada_25.csv
+Single_File.py
 
 # Unnecessary files
 .DS_Store
 /.virtual_documents
+/notebooks/.virtual_documents
 /.ipynb_checkpoints
 /notebooks/.ipynb_checkpoints
 /notebooks/.DS_Store
