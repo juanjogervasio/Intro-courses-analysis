@@ -1,16 +1,9 @@
 #  Análisis de Desempeño en Cursos Introductorios de Matemática (2020–2025)
 
-## 📂 Contenido del repositorio
-- `Analisis.ipynb`: notebook principal con el análisis desarrollado.
-- `Limpieza.ipynb`: notebook con el preprocesamiento necesario para el análisis.
-- `Mate_PI_2020_2025.csv`: base de datos original.
-- `Mate_PI_full_clean.csv`: base de datos procesada.
-- `Database.py`: script utilizado para la importación de datos.
-
 ## 🎯 Introducción
 Este proyecto analiza los resultados académicos de los estudiantes en la asignatura **Matemática Para Ingeniería** de la Facultad de Ingeniería de la Universidad Nacional de La Plata. Los datos son de producción propia, recopilados en los cursos en los que he participado **entre los años 2020 y 2025**.  
 
-El objetivo principal es **caracterizar** el desempeño de los alumnos en general y a lo largo de los años, y **comparar el rendimiento de los alumnos en las distintas modalidades de cursada** (Verano, 1er Semestre y Anticipada). Se busca identificar tendencias a lo largo del tiempo y evaluar factores contextuales que expliquen las posibles diferencias entre las distintas modalidades.  
+El objetivo principal es **caracterizar** el desempeño de los alumnos en general y a lo largo de los años, y **comparar el rendimiento de los alumnos en las distintas modalidades de cursada** (Verano, 1er Semestre y Anticipada). Se busca identificar tendencias a lo largo del tiempo y evaluar factores contextuales que expliquen las posibles diferencias entre las distintas modalidades. También se exploraron distintas posibilidades de modelos de Machine Learning para predecir los resultados de acuerdo a los datos presentes. 
 
 El análisis se realiza en **Python** utilizando `pandas`, `matplotlib` y `seaborn`. Por confidencialidad, no se comparten los datos originales completos, pero se disponen los datos suficientes para replicar los resultados de este estudio.
 
@@ -51,8 +44,17 @@ Los resultados del análisis descriptivo de los cursos puede verse en el noteboo
 - Comparación de resultados entre cada modalidad de cursada.   
 ---
 
+## 📈 Modelos Predictivos de Desempeño
+
+Se propuso un modelo de Logistic Regressor ajustado sobre los datos para predecir la Condición Final de los alumnos en base a sus resultados en los parciales. Fue necesaria una limpieza de los datos y realizar la elección de la porción de datos sobre los cuales entrenar y evaluar el modelo, para evitar sesgos del propio dataset. 
+
+La construcción del modelo y los resultados obtenidos pueden verse en el notebook [Predictivos.ipynb](https://github.com/juanjogervasio/Intro-courses-analysis/blob/main/notebooks/Predictivos.ipynb)
+
+---
+
 ## 🚀 Próximos pasos
 - Profundizar las conclusiones obtenidas del análisis.
-- Explorar técnicas de **Machine Learning**:
+- Explorar más técnicas de **Machine Learning**, por ejemplo:
+  - Analizar el desempeño del modelo de Logistic Regressor según se conocen los resultados de los sucesivos parciales.
+  - Modelos predictivos más complejos.
   - Clusterización de perfiles de estudiantes.
-  - Modelos predictivos de condición final (aprobado, desaprobado, libre, abandono).
